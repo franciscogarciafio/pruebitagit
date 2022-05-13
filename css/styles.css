@@ -1,0 +1,42 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* propiedades del div caja
+
+.caja{
+    border: 3px solid black;
+    margin: 2rem;
+    background-image: linear-gradient(rgb(237, 69, 69), yellow);
+    width: 300px;
+    height: 300px;
+   transition: 5s;
+}
+
+.caja:hover{
+    background-image: linear-gradient(rgb(69, 125, 237), rgb(47, 193, 37));
+    transform: rotate(360deg)
+}
+*/
+
+.luna img{
+    width: 30%;
+}
+
+.girar{
+    animation-name: luna-gira;
+    animation-duration: 180s;
+    animation-timing-function: linear;
+}
+
+@keyframes luna-gira{
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
